@@ -327,7 +327,7 @@ void CUpdateDlg::OnClose()
 		TerminateProcess(hProcess, 0);
 		//exit(0);
 	}else{
-		TerminateProcess(hProcess, 1);
+		//TerminateProcess(hProcess, 1);
 		//exit(-1);
 	}
 }
